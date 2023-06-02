@@ -160,7 +160,7 @@
     font-size: 17px;
     border: 1px solid grey;
     float: left;
-    width: 70%;
+    width: 700px;
     background: #f1f1f1;
     border-radius: 20PX;
   }
@@ -275,6 +275,8 @@ grid-template-columns: 250px 1fr;
 
   .profile{
     padding: 10px;
+    
+   
 
   }
 
@@ -398,4 +400,61 @@ border-radius: 30px;
     padding: 10px;
     display: inline-block;
   }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  .firsthead {
+    display: flex;
+   justify-content: space-between;
+   flex: 1;
+  }
+  
+  .header-right {
+    text-align: right;
+
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .search-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .bell-icon {
+    margin-right: 10px;
+  }
+  
+  .name {
+    margin-left: 10px;
+  }
+  
+
+  
+
+  
+
+
+
   
